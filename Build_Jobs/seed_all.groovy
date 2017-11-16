@@ -4,7 +4,7 @@ job('Seed All') {
   }
   steps {
     dsl {
-      external('jobs/*.groovy')  
+      external('Bulid_jobs/*.groovy')  
     
       removeAction('DELETE')
     }
