@@ -1,6 +1,6 @@
 job('Build-using-DSL-01') {
     scm {
-        git('git://github.com/quidryan/aws-sdk-test.git')
+        git('git://github.com/BalajiSivarajRajan/DevOps.git')
     }
     triggers {
         scm('H/15 * * * *')
