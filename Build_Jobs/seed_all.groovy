@@ -1,4 +1,4 @@
-job('Seed All') {
+job('Seed_all') {
   scm {
     git ('https://github.com/BalajiSivarajRajan/DSL_test.git')
   }

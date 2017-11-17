@@ -3,7 +3,7 @@ job('Build-using-DSL-01') {
         git('git://github.com/BalajiSivarajRajan/DevOps.git')
     }
     triggers {
-        scm('H/15 * * * *')
+        scm('H/45 * * * *')
     }
     steps {
         maven('-e clean test')
